@@ -11,7 +11,8 @@ module.exports = {
         open:true,
         port:8080,
         hot:true,
-        hotOnly:true
+        hotOnly:true,
+        host:'0.0.0.0'
     },
     entry:{
         main:'./src/index.js'
